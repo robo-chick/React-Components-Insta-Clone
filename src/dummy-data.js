@@ -49,7 +49,7 @@ const dummyData = [
         username: "fortnitekid",
         thumbnailUrl: 'https://cdn2.iconfinder.com/data/icons/popular-games-1/50/fortnite_squircle-512.png',
         imageUrl: 'https://images.unsplash.com/photo-1548686304-89d188a80029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-        likes: 4307,
+        likes: 5,
         timestamp: "April 23rd 2020, 05:23:05 pm",
         comments: [
             {
