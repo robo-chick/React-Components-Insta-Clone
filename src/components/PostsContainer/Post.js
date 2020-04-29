@@ -12,8 +12,16 @@ const Post = props => {
 const [likes, setLikes] = useState(props.post.likes);
 console.log(props);
 
+const [isLiked, setIsLiked] =
+  useState(false);
+
 const increaseLikes = () => {
+  setIsLiked(!isLiked);
+  if(isLiked === true) {
+    setLikes(likes - 1);
+  } else {
   setLikes(likes + 1)
+  }
 }
 
   return (
